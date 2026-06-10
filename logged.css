@@ -1,44 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
     /* CSS dasar untuk margin, padding, dan font */
-    * { 
-      margin: 0; 
-      padding: 0; 
-      box-sizing: border-box; 
-      font-family: 'Poppins', sans-serif; 
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
     }
 
-    html, body { 
-      height: 100%; 
-      width: 100%; 
-      background-image: url(background.jpg);
-      background-size: cover;
-      background-position: top;
-      background-repeat: no-repeat;
-    }
+html, body { 
+    height: 100%; 
+    width: 100%; 
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
 
-    section { 
-      display: flex; 
-      justify-content: center; 
-      align-items: center;
-      color: #ffffff;
+    /* Pengaturan posisi form */
+section { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    color: #ffffff;
+    min-height: 100vh;
+}
 
-      min-height: 100vh; 
-    }
+  /* Pengaturan teks Login */
+h2 { 
+    text-align: center; 
+    font-size: 2.5rem; 
+    font-weight: 700; 
+    color: #fff; 
+    margin-bottom: 35px; 
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6); 
+}
 
-    button { 
-      width: 100%; 
-      background: #fff; 
-      border: none; 
-      padding: 15px; 
-      cursor: pointer; 
-      font-size: 20px; 
-      color: #000; 
-      border-radius: 5px; 
-      transition: 0.3s; 
-      margin-bottom: 20px; 
-    }
+/* Pengaturan tombol */
+button { 
+    width: 100%;   
+    background: #fff; 
+    border: none; 
+    padding: 10px; 
+    cursor: pointer; 
+    font-size: 20px; 
+    color: #000; 
+    border-radius: 25px; 
+    transition: 0.3s; 
+    margin-bottom: 20px; 
+}
 
-    button:hover { 
-      background: #ddd; 
-    }
+button:hover { 
+    background: #ddd; 
+}
