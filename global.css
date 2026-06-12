@@ -16,7 +16,6 @@ html, body {
   background-repeat: no-repeat;
 }
 
-  /* posisi form */
 section { 
   display: flex; 
   justify-content: center; 
@@ -24,7 +23,6 @@ section {
   min-height: 100vh; 
 }
 
-  /* ukuran box dan efek glass */
 .form-box {
   width: 480px; 
   background: rgba(255, 255, 255, 0.05);
@@ -37,7 +35,6 @@ section {
   align-items: center;
 }
 
-  /* kotak tombol continue */
 .form-value { 
   width: 100%; 
   display: flex; 
@@ -45,7 +42,6 @@ section {
   align-items: center; 
 }
 
-  /* teks login sama register */
 h2 { 
   text-align: center; 
   font-size: 2.5rem; 
@@ -55,7 +51,6 @@ h2 {
   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6); 
 }
 
-  /* pengaturan input form */
 .inputbox { 
   position: relative; 
   width: 100%; 
@@ -63,7 +58,6 @@ h2 {
   border-bottom: 2px solid white; 
 }
 
-  /* pengaturan input teks */
 .inputbox input { 
   width: 100%; 
   height: 60px; 
@@ -75,7 +69,6 @@ h2 {
   color: #fff; 
 }
 
-  /* animasi label saat input diisi */
 .inputbox label { 
   position: absolute; 
   top: 50%; 
@@ -94,7 +87,6 @@ h2 {
   color: #ccc; 
 }
 
-  /* button */
 button { 
   width: 100%; 
   background: #fff; 
@@ -112,7 +104,6 @@ button:hover {
   background: #ddd; 
 }
 
-  /* Link register sama login */
 p {
   margin-top: 20px;
   color: #fff;
